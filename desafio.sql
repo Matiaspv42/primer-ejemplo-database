@@ -32,14 +32,14 @@ insert into post (nombre_de_usuario, fecha_de_creacion, contenido, descripcion, 
 create table comentarios(id int, fecha_de_creacion_comentario time, contenido varchar(250), FOREIGN KEY (id) references post(id));
 
 -- Comentarios a pamela
-posts=# insert into comentarios (id, fecha_de_creacion_comentario, contenido) values (1,NOW() ,'Hola pamela! Soy carlos, como estas?');
-posts=# insert into comentarios (id, fecha_de_creacion_comentario, contenido) values (1,NOW() ,'Hola pamela? Soy carlos denuevo, por qué no me respondes????');
+ insert into comentarios (id, fecha_de_creacion_comentario, contenido) values (1,NOW() ,'Hola pamela! Soy carlos, como estas?');
+ insert into comentarios (id, fecha_de_creacion_comentario, contenido) values (1,NOW() ,'Hola pamela? Soy carlos denuevo, por qué no me respondes????');
 
 -- Comentarios a carlos
-posts=# insert into comentarios (id, fecha_de_creacion_comentario, contenido) values (5,NOW() ,'Hola carlos! perdon no ');
-posts=# insert into comentarios (id, fecha_de_creacion_comentario, contenido) values (5,NOW() ,'vi');
-posts=# insert into comentarios (id, fecha_de_creacion_comentario, contenido) values (5,NOW() ,'tu');
-posts=# insert into comentarios (id, fecha_de_creacion_comentario, contenido) values (5,NOW() ,'comentario! no sé qué pasó que se empezaron a mandar comentarios solos!');
+ insert into comentarios (id, fecha_de_creacion_comentario, contenido) values (5,NOW() ,'Hola carlos! perdon no ');
+ insert into comentarios (id, fecha_de_creacion_comentario, contenido) values (5,NOW() ,'vi');
+ insert into comentarios (id, fecha_de_creacion_comentario, contenido) values (5,NOW() ,'tu');
+ insert into comentarios (id, fecha_de_creacion_comentario, contenido) values (5,NOW() ,'comentario! no sé qué pasó que se empezaron a mandar comentarios solos!');
 
 -- Post de margarita
 
